@@ -1,6 +1,6 @@
 //
-//  MediaPlayerAppApp.swift
-//  MediaPlayerApp
+//  VideoPlayerAppApp.swift
+//  VideoPlayerApp
 //
 //  Created by Fatom on 2025-11-04.
 //
@@ -11,7 +11,7 @@ import SwiftUI
 struct MediaPlayerAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VideoListView()
         }
     }
 }
